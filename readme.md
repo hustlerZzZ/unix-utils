@@ -115,12 +115,12 @@ java -cp out Tail -n 50 -f app.log
 
 ## 📅 Roadmap
 - [x] Implement `cat`
-- [] Implement `ls`
-- [] Implement `wc`
-- [] Implement `tail`
-- [] Implement `sort`
-- [] Implement `grep`
-- [] Implement `less`
+- [ ] Implement `ls`
+- [ ] Implement `wc`
+- [ ] Implement `tail`
+- [ ] Implement `sort`
+- [ ] Implement `grep`
+- [ ] Implement `less`
 - [ ] Add more advanced features (flags, regex options, etc.)
 - [ ] Add support for piping (`|`) between commands
 
