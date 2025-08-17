@@ -1,4 +1,5 @@
 import commands.Ls;
+import commands.Wc;
 import commands.Cat;
 
 public class Main {
@@ -16,6 +17,7 @@ public class Main {
             path = args[1];
 
         switch (command) {
+            case "wc" -> Wc.run(path);
             case "ls" -> Ls.run(path);
             case "cat" -> Cat.run(path);
             default -> System.out.println("Unknown Command :" + command);

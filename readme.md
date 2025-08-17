@@ -115,8 +115,8 @@ java -cp out Tail -n 50 -f app.log
 
 ## 📅 Roadmap
 - [x] Implement `cat`
-- [ ] Implement `ls`
-- [ ] Implement `wc`
+- [X] Implement `ls`
+- [X] Implement `wc`
 - [ ] Implement `tail`
 - [ ] Implement `sort`
 - [ ] Implement `grep`
